@@ -1,0 +1,21 @@
+name:                refined-test
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/AdituV/refined-test#readme
+license:             BSD3
+author:              Iris Ward
+maintainer:          aditu.venyhandottir@gmail.com
+copyright:           2018 Iris Ward
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - refined
+
+executables:
+  refined-test:
+    source-dirs:      src
+    main:             Main.hs
